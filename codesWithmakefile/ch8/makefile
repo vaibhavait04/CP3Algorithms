@@ -1,0 +1,1 @@
+all: ch8_01_UVa10181  ch8_02_UVa10911  ch8_03_UVa1231  ch8_04_UVa1079

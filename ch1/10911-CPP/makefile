@@ -1,0 +1,4 @@
+OBJECTS=main
+
+all: $(OBJECTS)
+

@@ -1,0 +1,3 @@
+all: ch2_01_array_vector  ch2_02_algorithm_collections  ch2_03_bit_manipulation  ch2_04_stack_queue \
+	ch2_05_map_set ch2_06_priority_queue ch2_07_graph_ds ch2_08_unionfind_ds  ch2_09_segmenttree_ds ch2_10_fenwicktree_ds
+

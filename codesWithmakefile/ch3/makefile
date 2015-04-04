@@ -1,0 +1,3 @@
+all: ch3_01_UVa750 ch3_03_UVa11450_bu ch3_05_UVa108 ch3_07_UVa10130 ch3_09_UVa10496 ch3_11_UVa10003 \
+     ch3_02_UVa11450_td ch3_04_Max1DRangeSum ch3_06_LIS ch3_08_UVa674 ch3_10_UVa10943
+
