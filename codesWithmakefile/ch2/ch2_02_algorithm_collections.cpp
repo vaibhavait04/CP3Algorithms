@@ -25,31 +25,31 @@ int main() {
   vector<int> v(arr, arr + 5);          // another way to initialize vector
   vector<int>::iterator j;
 
-  // sort descending with vector
+  // sort descending with vector - use reverse iterators  or sort and then reverse 
   sort(v.rbegin(), v.rend());        // example of using 'reverse iterator'
   for (vector<int>::iterator it = v.begin(); it != v.end(); it++)
     printf("%d ", *it);                     // access the value of iterator
   printf("\n");
-  printf("==================\n");
+  printf("=========iterators done =========\n");
 
-  // sort descending with integer array
+  // sort descending with integer array 
   sort(arr, arr + 5);                                          // ascending
   reverse(arr, arr + 5);                                    // then reverse
   for (int i = 0; i < 5; i++)
     printf("%d ", arr[i]);
   printf("\n");
-  printf("==================\n");
+  printf("=======reverse done ===========\n");
 
-  random_shuffle(v.begin(), v.end());          // shuffle the content again
+  random_shuffle(v.begin(), v.end());          // shuffle the content again - random_shuffle algorithm
   for (vector<int>::iterator it = v.begin(); it != v.end(); it++)
     printf("%d ", *it);
   printf("\n");
-  printf("==================\n");
-  partial_sort(v.begin(), v.begin() + 2, v.end());     // partial_sort demo
+  printf("=======shuffle done ===========\n");
+  partial_sort(v.begin(), v.begin() + 2, v.end());     // partial_sort demo - only sort two elements 
   for (vector<int>::iterator it = v.begin(); it != v.end(); it++)
     printf("%d ", *it);
   printf("\n");
-  printf("==================\n");
+  printf("========partial_sort done ==========\n");
 
   // sort ascending
   sort(arr, arr + 5);                           // arr should be sorted now
@@ -60,7 +60,7 @@ int main() {
   for (vector<int>::iterator it = v.begin(); it != v.end(); it++)
     printf("%d ", *it);
   printf("\n");
-  printf("==================\n");
+  printf("=========sort ascending done =========\n");
 
   // multi-field sorting example, suppose we have 4 ICPC teams
   team nus[4] = { {1, 1, 10}, 
@@ -74,15 +74,16 @@ int main() {
            nus[i].id, nus[i].solved, nus[i].penalty);
 
   sort(nus, nus + 4, icpc_cmp);         // sort using a comparison function
-  printf("==================\n");
+  printf("========sort with comparison function done ==========\n");
+
   // after sorting using ICPC rule, they will be ranked like this:
   for (int i = 0; i < 4; i++)
     printf("id: %d, solved: %d, penalty: %d\n",
            nus[i].id, nus[i].solved, nus[i].penalty);
-  printf("==================\n");
+  printf("======after sorting print done ============\n");
 
   // there is a trick for multi-field sorting if the sort order is "standard"
-  // use "chained" pair class in C++ and put the highest priority in front
+  // use "chained" pair class in C++ and put the >>"highest priority in front"<< 
   typedef pair < int, pair < string, string > > state;
   state a = make_pair(10, make_pair("steven", "grace"));
   state b = make_pair(7, make_pair("steven", "halim"));
@@ -96,22 +97,23 @@ int main() {
   for (int i = 0; i < 4; i++)
     printf("value: %d, name1 = %s, name2 = %s\n", test[i].first,
     ((string)test[i].second.first).c_str(), ((string)test[i].second.second).c_str());
-  printf("==================\n");
+  printf("=====before sorting vector of pair =============\n");
+
+
   sort(test.begin(), test.end());   // no need to use a comparison function
-  // sorted ascending based on value, then based on name1,
-  // then based on name2, in that order!
+  // sorted ascending based on value, then based on name1,` then based on name2, in that order!
   for (int i = 0; i < 4; i++)
     printf("value: %d, name1 = %s, name2 = %s\n", test[i].first,
       ((string)test[i].second.first).c_str(), ((string)test[i].second.second).c_str());
-  printf("==================\n");
+  printf("======after sorting vector of pair ============\n");
 
   // binary search using lower bound
-  pos = lower_bound(arr, arr + 5, 7);                              // found
+  pos = lower_bound(arr, arr + 5, 7);                          // found
   printf("%d\n", *pos);
   j = lower_bound(v.begin(), v.end(), 7);
   printf("%d\n", *j);
 
-  pos = lower_bound(arr, arr + 5, 77);                         // not found
+  pos = lower_bound(arr, arr + 5, 77);                  // not found in case of C ARRAY (max length)
   if (pos - arr == 5) // arr is of size 5 -> 
                       //    arr[0], arr[1], arr[2], arr[3], arr[4]
                       // if lower_bound cannot find the required value,
@@ -126,11 +128,12 @@ int main() {
                     // but this is exactly the position of vector.end()
                     //   so we can test "not found" this way
     printf("77 not found\n");
-  printf("==================\n");
+  printf("=======lower bound done ===========\n");
 
   // useful if you want to generate permutations of set
   next_permutation(arr, arr + 5); // 2, 4, 7, 10, 15 -> 2, 4, 7, 15, 10
   next_permutation(arr, arr + 5); // 2, 4, 7, 15, 10 -> 2, 4, 10, 7, 15
+
   for (int i = 0; i < 5; i++)
     printf("%d ", arr[i]);
   printf("\n");
@@ -140,11 +143,16 @@ int main() {
   for (vector<int>::iterator it = v.begin(); it != v.end(); it++)
     printf("%d ", *it);
   printf("\n");
-  printf("==================\n");
+  printf("=========permutation done =========\n");
 
   // sometimes these two useful simple macros are used
   printf("min(10, 7) = %d\n", min(10, 7));
   printf("max(10, 7) = %d\n", max(10, 7));
-
+  printf(" ============ min max done ==============\n");
   return 0;
 }
+
+
+
+
+

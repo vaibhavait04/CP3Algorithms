@@ -20,13 +20,13 @@ using namespace std;
 #define turnOffLastConsecutiveBits(S) ((S) & (S + 1))
 #define turnOnLastConsecutiveZeroes(S) ((S) | (S - 1))
 
-void printSet(int vS) {                         // in binary representation
+void printSet(int vS) {       // get the binary representation of integer 
   printf("S = %2d = ", vS);
   stack<int> st;
   while (vS)
-    st.push(vS % 2), vS /= 2;
+    st.push(vS % 2), vS /= 2;        // use comma operator 
   while (!st.empty())                         // to reverse the print order
-    printf("%d", st.top()), st.pop();
+    printf("%d", st.top()), st.pop();  // use comma operator 
   printf("\n");
 }
 

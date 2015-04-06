@@ -1,3 +1,5 @@
+//page 52 0 check 
+
 #include <cstdio>
 #include <vector>
 using namespace std;

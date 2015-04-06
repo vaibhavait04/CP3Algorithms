@@ -15,7 +15,8 @@ vi p;                                 // addition: the predecessor/parent vector
 void printPath(int u) {    // simple function to extract information from `vi p'
   if (u == s) { printf("%d", u); return; }
   printPath(p[u]);   // recursive call: to make the output format: s -> ... -> t
-  printf(" %d", u); }
+  printf(" %d", u); 
+}
 
 int main() {
   /*

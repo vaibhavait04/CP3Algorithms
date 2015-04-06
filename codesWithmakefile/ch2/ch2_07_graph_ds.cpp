@@ -46,6 +46,7 @@ int main() {
   */
   freopen("in_07.txt", "r", stdin);
 
+  printf("Read the graph in adj matrix \n");
   scanf("%d", &V);                         // we must know this size first!
                      // remember that if V is > 100, try NOT to use AdjMat!
   for (int i = 0; i < V; i++)
@@ -57,6 +58,7 @@ int main() {
     if (AdjMat[0][j])
       printf("Edge 0-%d (weight = %d)\n", j, AdjMat[0][j]);
 
+  printf("Read the graph in adjacency list\n");
   scanf("%d", &V);
   AdjList.assign(V, vii()); // quick way to initialize AdjList with V entries of vii
   for (int i = 0; i < V; i++) {
@@ -74,6 +76,7 @@ int main() {
     printf("Edge 0-%d (weight = %d)\n", j->first, j->second);
 
   scanf("%d", &E);
+  printf("Read the graph in EdgeList \n");
   for (int i = 0; i < E; i++) {
     scanf("%d %d %d", &a, &b, &weight);
     EdgeList.push(make_pair(-weight, ii(a, b))); // trick to reverse sort order

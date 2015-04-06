@@ -11,4 +11,6 @@ int main() {
                          // note: if you are surprised with the trick above,
                       // please check scanf details in www.cppreference.com
     printf("the digits are 0.%s\n", x);
-} } // return 0;
+  }
+
+} // return 0;

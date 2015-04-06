@@ -60,7 +60,8 @@ int main() {
   //     (69)    (77)    (80)    (82)
 
   // O(log n) search, found
-  printf("%d\n", *used_values.find(77));
+  printf("%d\n", *used_values.find(77)); // find returns iterator need * to redirect.
+
   // returns [69, 75] (these two are before 77 in the inorder traversal of this BST)
   for (set<int>::iterator it = used_values.begin(); it != used_values.lower_bound(77); it++)
     printf("%d,", *it);
@@ -69,6 +70,7 @@ int main() {
   for (set<int>::iterator it = used_values.lower_bound(77); it != used_values.end(); it++)
     printf("%d,", *it);
   printf("\n");
+
   // O(log n) search, not found
   if (used_values.find(79) == used_values.end())
     printf("79 not found\n");
