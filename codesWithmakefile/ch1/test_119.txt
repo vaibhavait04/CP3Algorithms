@@ -1,0 +1,19 @@
+5
+dave laura owen vick amr
+dave 200 3 laura owen vick
+owen 500 1 dave
+amr 150 2 vick owen
+laura 0 2 amr vick
+vick 0 0
+5
+d l o v a
+d 200 3 l o v
+o 500 1 d
+a 150 2 v o
+l 0 2 a v
+v 0 0
+3
+a b c
+a 30 1 b
+b 55 2 a c
+c 0 2 a b

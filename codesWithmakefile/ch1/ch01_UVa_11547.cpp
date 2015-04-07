@@ -21,13 +21,9 @@ return result;
 int main()
 {
 int cases, value; 
-cout << " reading the number of case \n"; 
 cin >> cases; 
-while (cases--)
-{
-cout << " reading " << cases << "\n"; 
+while (cases--) {
 cin >> value; 
 cout << calculatedValue(value) << "\n";
 }
-
 }

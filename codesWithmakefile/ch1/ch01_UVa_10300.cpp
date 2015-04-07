@@ -16,7 +16,7 @@ int sum = 0;
 while (F--)
 {
 cin >> land >> animals >> rate ; 
-cout << land << " " << animals << " " << rate << endl; 
+//cout << land << " " << animals << " " << rate << endl; 
 sum += land * rate; 
 }
 cout << sum << "\n"; 

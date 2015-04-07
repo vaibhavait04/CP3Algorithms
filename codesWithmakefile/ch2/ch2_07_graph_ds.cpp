@@ -10,7 +10,7 @@ typedef vector<ii> vii;
 int main() {
   int V, E, total_neighbors, id, weight, a, b;
   int AdjMat[100][100];
-  vector<vii> AdjList;
+  vector<vii> AdjList; // vec of vec of int pair (pair -> node, weight) 
   priority_queue< pair<int, ii> > EdgeList;   // one way to store Edge List
 
   // Try this input for Adjacency Matrix/List/EdgeList
@@ -20,23 +20,24 @@ int main() {
   //   for each line: num neighbors, list of neighbors + weight pairs
   // Edge List
   //   for each line: a-b of edge(a,b) and weight
+
   /*
   6
-    0  10   0   0 100   0
+    0  10   0   0 100   0   // connections with weighted values 
    10   0   7   0   8   0
     0   7   0   9   0   0
     0   0   9   0  20   5
   100   8   0  20   0   0
     0   0   0   5   0   0
   6
-  2 2 10 5 100
+  2 2 10 5 100   // edges with weights 
   3 1 10 3 7 5 8
   2 2 7 4 9
   3 3 9 5 20 6 5
   3 1 100 2 8 4 20
   1 4 5
   7
-  1 2 10
+  1 2 10 // edge and weight of edge 
   1 5 100
   2 3 7
   2 5 8
@@ -44,6 +45,8 @@ int main() {
   4 5 20
   4 6 5
   */
+
+
   freopen("in_07.txt", "r", stdin);
 
   printf("Read the graph in adj matrix \n");

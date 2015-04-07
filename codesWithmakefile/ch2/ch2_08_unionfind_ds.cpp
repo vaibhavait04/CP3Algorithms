@@ -6,7 +6,8 @@ using namespace std;
 
 typedef vector<int> vi;
 
-// Union-Find Disjoint Sets Library written in OOP manner, using both path compression and union by rank heuristics
+// Union-Find Disjoint Sets Library written in OOP manner, 
+// using both path compression and union by rank heuristics
 class UnionFind {                                              // OOP style
 private:
   vi p, rank, setSize;                       // remember: vi is vector<int>

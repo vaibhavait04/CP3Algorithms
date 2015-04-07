@@ -2,6 +2,7 @@
 #include <map>
 #include <set>
 #include <string>
+#include <iostream> 
 using namespace std;
 
 int main() {
@@ -63,9 +64,14 @@ int main() {
   printf("%d\n", *used_values.find(77)); // find returns iterator need * to redirect.
 
   // returns [69, 75] (these two are before 77 in the inorder traversal of this BST)
+  cout << " Testing the values of lowerbound vs upper bound " << endl; 
   for (set<int>::iterator it = used_values.begin(); it != used_values.lower_bound(77); it++)
     printf("%d,", *it);
   printf("\n");
+  cout << " Testing the values of lowerbound vs upper bound " << endl; 
+  for (set<int>::iterator it = used_values.begin(); it != used_values.upper_bound(77); it++)
+    printf("%d,", *it);
+  printf("\nDone ---\n");
   // returns [77, 78, 80, 81, 82] (these five are equal or after 77 in the inorder traversal of this BST)
   for (set<int>::iterator it = used_values.lower_bound(77); it != used_values.end(); it++)
     printf("%d,", *it);
