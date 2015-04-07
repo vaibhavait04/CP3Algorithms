@@ -6,10 +6,10 @@
 using namespace std; 
 int main()
 {
-vector< pair<int, string> > vis; 
 int cases; cin >> cases; 
 for (int x=0; x<cases; ++x)
 {
+vector< pair<int, string> > vis; 
 string s; int w, max; bool start = false;   
 for (int y=0; y< 10; ++y) 
 {
@@ -23,8 +23,5 @@ for (int x =0; x<vis.size(); ++x)
 {
 if (vis[x].first ==max) cout << vis[x].second << endl; 
 }
-
 }
-
-
 }
