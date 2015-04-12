@@ -18,9 +18,9 @@ int getVal(int x) { while (x>9) {int x1 = x/10 + x%10; x=x1;} return x; }
 int main()
 {
 string x, y; 
-while (cin >> x)
+while (getline(cin,x))
 {
-cin >> y; 
+getline(cin,y);
 //cout << getSum(x) << " and " << getSum(y) << endl; 
 int v1 = getVal(getSum(x)), v2 = getVal(getSum(y)); 
 //cout << v1 << " and " << v2 << endl; 
