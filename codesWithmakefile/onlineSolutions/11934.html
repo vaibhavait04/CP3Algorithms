@@ -1,0 +1,133 @@
+
+<!--Converted with LaTeX2HTML 2008 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Magic Formula</TITLE>
+<META NAME="description" CONTENT="Magic Formula">
+<META NAME="keywords" CONTENT="htmlatex">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2008">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="http://uva.onlinejudge.org/external/119/htmlatex.css">
+
+</HEAD>
+
+<BODY LANG="EN" BGCOLOR=#FFFFFF>
+
+<H1><BR CLEAR=ALL><CENTER><TABLE BGCOLOR=#0000ff><TR><TD><B><FONT SIZE=5 COLOR=#FFff00>&nbsp;<A NAME="SECTION0001000000000000000000">
+Magic Formula</A>&nbsp;</FONT></B></TABLE></CENTER>
+</H1>
+
+<P>
+You are given a quadratic function, <!-- MATH
+ $f(n) = a \times 2 + b \times  + c$
+ -->
+<SPAN CLASS="MATH"><I>f</I> (<I>n</I>) = <I>a</I> <TT>x</TT> 2 + <I>b</I> <TT>x</TT> + <I>c</I></SPAN>. You are also given a divisor <SPAN CLASS="MATH"><I>d</I></SPAN> and a limit <SPAN CLASS="MATH"><I>L</I></SPAN>. 
+How many of the function values <!-- MATH
+ $f(0), f(1),\dots, f(L)$
+ -->
+<SPAN CLASS="MATH"><I>f</I> (0), <I>f</I> (1),..., <I>f</I> (<I>L</I>)</SPAN> are divisible by <SPAN CLASS="MATH"><I>d</I></SPAN>?
+
+<P>
+<DIV ALIGN="CENTER">
+<!-- MATH
+ $\epsfbox{p11934.eps}$
+ -->
+<IMG
+ WIDTH="672" HEIGHT="511" ALIGN="BOTTOM" BORDER="0"
+ SRC="p11934.png"
+ ALT="\epsfbox{p11934.eps}">
+</DIV>
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001001000000000000000">
+Input</A>&nbsp;</FONT>
+</H2>
+
+<P>
+Input consists of a number of test cases. Each test case consists of a single line containing the 
+numbers <!-- MATH
+ $a \ b \ c \ d \ L$
+ -->
+<SPAN CLASS="MATH"><I>a</I>&nbsp;<I>b</I>&nbsp;<I>c</I>&nbsp;<I>d</I>&nbsp;<I>L</I></SPAN> (<!-- MATH
+ $-1000 \le a,b,c \le 1000$
+ -->
+<SPAN CLASS="MATH">-1000<IMG
+ WIDTH="18" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="11934img2.png"
+ ALT="$ \le$"><I>a</I>, <I>b</I>, <I>c</I><IMG
+ WIDTH="18" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="11934img2.png"
+ ALT="$ \le$">1000</SPAN>, <!-- MATH
+ $1 < d < 1000000$
+ -->
+<SPAN CLASS="MATH">1 &lt; <I>d</I> &lt; 1000000</SPAN>, <!-- MATH
+ $0 \le L < 1000$
+ -->
+<SPAN CLASS="MATH">0<IMG
+ WIDTH="18" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="11934img2.png"
+ ALT="$ \le$"><I>L</I> &lt; 1000</SPAN>). 
+
+<P>
+Input is terminated by a line containing `<TT>0 0 0 0 0</TT>' which 
+should not be processed.
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001002000000000000000">
+Output</A>&nbsp;</FONT>
+</H2>
+
+<P>
+Print the answer for each test case (the number of function values <!-- MATH
+ $f(0), f(1), \dots, f(L)$
+ -->
+<SPAN CLASS="MATH"><I>f</I> (0), <I>f</I> (1),..., <I>f</I> (<I>L</I>)</SPAN> divisible by <SPAN CLASS="MATH"><I>d</I></SPAN>) on a separate line.
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001003000000000000000">
+Sample Input</A>&nbsp;</FONT>
+</H2>
+
+<P>
+<PRE>
+0 0 10 5 100
+0 0 10 6 100
+1 2 3 4 5
+1 2 3 3 5
+0 0 0 0 0
+</PRE> 
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001004000000000000000">
+Sample Output</A>&nbsp;</FONT>
+</H2>
+
+<P>
+<PRE>
+101
+0
+0
+4
+</PRE> 
+
+<P>
+
+
+<P>
+<BR><HR>
+
+</BODY>
+</HTML>
+</HTML>

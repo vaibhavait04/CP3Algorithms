@@ -1,0 +1,121 @@
+
+<!--Converted with LaTeX2HTML 2008 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Splitting Numbers</TITLE>
+<META NAME="description" CONTENT="Splitting Numbers">
+<META NAME="keywords" CONTENT="htmlatex">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2008">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="http://uva.onlinejudge.org/external/119/htmlatex.css">
+
+</HEAD>
+
+<BODY LANG="EN" BGCOLOR=#FFFFFF>
+
+<H1><BR CLEAR=ALL><CENTER><TABLE BGCOLOR=#0000ff><TR><TD><B><FONT SIZE=5 COLOR=#FFff00>&nbsp;<A NAME="SECTION0001000000000000000000">
+Splitting Numbers</A>&nbsp;</FONT></B></TABLE></CENTER>
+</H1>
+
+<P>
+We define the operation of splitting a binary number <SPAN CLASS="MATH"><I>n</I></SPAN> into two numbers <SPAN CLASS="MATH"><I>a</I>(<I>n</I>), <I>b</I>(<I>n</I>)</SPAN> as follows. Let <!-- MATH
+ $0 \le i_1 < i_2 < \dots < i_k$
+ -->
+<SPAN CLASS="MATH">0<IMG
+ WIDTH="18" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="11933img1.png"
+ ALT="$ \le$"><I>i</I><SUB>1</SUB> &lt; <I>i</I><SUB>2</SUB> &lt; ... &lt; <I>i</I><SUB>k</SUB></SPAN> be the 
+indices of the bits (with the least significant bit having index 0) in <SPAN CLASS="MATH"><I>n</I></SPAN> that are 1. Then the indices of the bits of <SPAN CLASS="MATH"><I>a</I>(<I>n</I>)</SPAN> that 
+are 1 are <!-- MATH
+ $i_1, i_3, i_5,\dots$
+ -->
+<SPAN CLASS="MATH"><I>i</I><SUB>1</SUB>, <I>i</I><SUB>3</SUB>, <I>i</I><SUB>5</SUB>,...</SPAN> and the indices of the bits of <SPAN CLASS="MATH"><I>b</I>(<I>n</I>)</SPAN> that are 1 are <!-- MATH
+ $i_2, i_4, i_6,\dots$
+ -->
+<SPAN CLASS="MATH"><I>i</I><SUB>2</SUB>, <I>i</I><SUB>4</SUB>, <I>i</I><SUB>6</SUB>,...</SPAN> 
+
+<P>
+<DIV ALIGN="CENTER">
+<!-- MATH
+ $\epsfbox{p11933.eps}$
+ -->
+<IMG
+ WIDTH="759" HEIGHT="568" ALIGN="BOTTOM" BORDER="0"
+ SRC="p11933.png"
+ ALT="\epsfbox{p11933.eps}">
+</DIV>
+
+<P>
+For example, if <SPAN CLASS="MATH"><I>n</I></SPAN> is 110110101 in binary 
+then, again in binary, we have <!-- MATH
+ $a = 010010001$
+ -->
+<SPAN CLASS="MATH"><I>a</I> = 010010001</SPAN> and <!-- MATH
+ $b = 100100100$
+ -->
+<SPAN CLASS="MATH"><I>b</I> = 100100100</SPAN>.
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001001000000000000000">
+Input</A>&nbsp;</FONT>
+</H2>
+
+<P>
+Each test case consists of a single integer <SPAN CLASS="MATH"><I>n</I></SPAN> between 1 and <SPAN CLASS="MATH">2<SUP>31</SUP> - 1</SPAN> written in standard decimal (base 10) format on a single line. 
+Input is terminated by a line containing `<TT>0</TT>' which should not be processed.
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001002000000000000000">
+Output</A>&nbsp;</FONT>
+</H2>
+
+<P>
+The output for each test case consists of a single line, containing the integers <SPAN CLASS="MATH"><I>a</I>(<I>n</I>)</SPAN> and <SPAN CLASS="MATH"><I>b</I>(<I>n</I>)</SPAN> separated by a single space. Both <SPAN CLASS="MATH"><I>a</I>(<I>n</I>)</SPAN> 
+and <SPAN CLASS="MATH"><I>b</I>(<I>n</I>)</SPAN> should be written in decimal format.
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001003000000000000000">
+Sample Input</A>&nbsp;</FONT>
+</H2>
+
+<P>
+<PRE>
+6
+7
+13
+0
+</PRE> 
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001004000000000000000">
+Sample Output</A>&nbsp;</FONT>
+</H2>
+
+<P>
+<PRE>
+2 4
+5 2
+9 4
+</PRE> 
+
+<P>
+
+
+<P>
+<BR><HR>
+
+</BODY>
+</HTML>
+</HTML>

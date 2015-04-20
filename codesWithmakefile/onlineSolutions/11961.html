@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+            "http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+<HEAD>
+
+<META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<META name="GENERATOR" content="hevea 1.10">
+<LINK rel="stylesheet" type="text/css" href="http://uva.onlinejudge.org/external/119/Huge_Easy_Contest_2.css">
+<TITLE></TITLE>
+</HEAD>
+<BODY >
+<H2 CLASS="section"><DIV CLASS="center"><A NAME="htoc51"><FONT COLOR="#004CFF">K</FONT></A>&#XA0;&#XA0;<FONT COLOR="#004CFF">&#X2014; DNA</FONT></DIV></H2><P>
+
+<I>Time Limit: 1 sec</I><BR>
+ <I>Memory Limit: 32 MB</I><BR>
+</P><P>
+
+
+Alan was comleting his internship at chemistry faculty. At the beginning internship seemed to be easy. However one day dean of the faculty of chemistry have given John a certain task to solve. Alan was asked to perform DNA and protein modelling using free OpenEye software kit.</P><P>As Alan like all programmers is very lazy, he would like to use computer as much as possible. So now he needs to generate all possible DNA mutations and share them to OpenEye software. Alan decided to use computer not only for OpenEye software but also for mutation generation purpose.</P><P>At the beginning of the internship Alan studying a little bit of chemistry science, so he knows that DNA consisting of 4 elements (<B>A</B>denine, <B>G</B>uanine, <B>C</B>ytosine, and <B>T</B>hymine) and can be described as a sequence of four letters (for example: <CODE>GATCC</CODE>). The <I>K</I>-th mutation of inital DNA sequence of length <I>N</I> is called a sequence that can be produced by replacing ((possibly to the same nucleotide)) exactly <I>K</I> elements of the sequence (for example <CODE>GAT</CODE> is the 1-st mutation of <CODE>GGT</CODE> and the 2-nd mutation of <CODE>TTT</CODE>).</P><P>Alan is given initial DNA sequence and maximal power of its possible mutataion. Can you produce all possible mutated DNA sequences for Alan?
+
+</P><H3 CLASS="subsection"><A NAME="toc41"></A><A NAME="htoc52"></A><FONT COLOR="#004CFF">INPUT</FONT></H3><P>
+
+The number of tests <CODE>T</CODE> (<I>T</I> &#X2264; 50) is given on the first line. Each test case if described by two lines: one the first is number <CODE>N</CODE> (<I>N</I> &#X2264; 10 ) and <CODE>K</CODE> (<I>K</I> &#X2264; 5), on the second line is written DNA sequence of length <CODE>N</CODE>.
+
+</P><H3 CLASS="subsection"><A NAME="toc42"></A><A NAME="htoc53"></A><FONT COLOR="#004CFF">OUTPUT</FONT></H3><P>
+
+For each test case print <CODE>M</CODE> &#X2014; the number of different DNA mutations. After this print all mutated DNA sequences in alphabetical order. Refer to the sample output for details.
+
+</P><H3 CLASS="subsection"><A NAME="toc43"></A><A NAME="htoc54"></A><FONT COLOR="#004CFF">SAMPLE INPUT</FONT></H3><PRE>
+1
+3 1
+AAA
+
+</PRE><H3 CLASS="subsection"><A NAME="toc44"></A><A NAME="htoc55"></A><FONT COLOR="#004CFF">SAMPLE OUTPUT</FONT></H3><PRE CLASS="verbatim">10
+AAA
+AAC
+AAG
+AAT
+ACA
+AGA
+ATA
+CAA
+GAA
+TAA
+
+</PRE><HR><I>Problem by: Aleksej Viktorchik; Leonid Sislo<BR>
+Huge Easy Contest #2</I></BODY>
+</HTML>

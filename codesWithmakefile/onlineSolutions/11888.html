@@ -1,0 +1,115 @@
+
+<!--Converted with LaTeX2HTML 2008 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Abnormal 89's</TITLE>
+<META NAME="description" CONTENT="Abnormal 89's">
+<META NAME="keywords" CONTENT="htmlatex">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2008">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="http://uva.onlinejudge.org/external/118/htmlatex.css">
+
+</HEAD>
+
+<BODY LANG="EN" BGCOLOR=#FFFFFF>
+
+<H1><BR CLEAR=ALL><CENTER><TABLE BGCOLOR=#0000ff><TR><TD><B><FONT SIZE=5 COLOR=#FFff00>&nbsp;<A NAME="SECTION0001000000000000000000">
+Abnormal 89's</A>&nbsp;</FONT></B></TABLE></CENTER>
+</H1>
+
+<P>
+A palindrome is a word that can be read the same way in either direction. More formally if a string is
+<SPAN CLASS="MATH"><I>d</I></SPAN> (<SPAN CLASS="MATH"><I>d</I> &gt; 0</SPAN>) characters length and the <SPAN CLASS="MATH"><I>i</I></SPAN>-th character is <SPAN CLASS="MATH"><I>a</I><SUB>i</SUB></SPAN>, the string is palindrome if 
+and only if <SPAN CLASS="MATH"><I>a</I><SUB>i</SUB></SPAN> equals
+<!-- MATH
+ $a_{(d-i+1)}$
+ -->
+<SPAN CLASS="MATH"><I>a</I><SUB>(d-i+1)</SUB></SPAN> for <!-- MATH
+ $1 \le i \le d$
+ -->
+<SPAN CLASS="MATH">1<IMG
+ WIDTH="18" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="11888img1.png"
+ ALT="$ \le$"><I>i</I><IMG
+ WIDTH="18" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="11888img1.png"
+ ALT="$ \le$"><I>d</I></SPAN>. For example "<TT>abcba</TT>" is palindrome while "<TT>aaab</TT>" is not.
+
+<P>
+It is known that everyone who gets to know palindromes, begin an emotional relationship with these
+beautiful strings. The harmony between the letters makes them artistic. But the 89's (those who
+entered AUT at 1389) claim they love another kind of strings. It is called <SPAN  CLASS="textit">alindrome</SPAN>. Actually an
+alindrome is the result of concatenation of two palindromes. 
+For example "<TT>abacc</TT>"="<TT>aba</TT>"+"<TT>cc</TT>" is
+alindrome.
+
+<P>
+Now you should write a program to distinguish alindromes, palindromes and other kind of strings.
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001001000000000000000">
+Input</A>&nbsp;</FONT>
+</H2>
+The first line contains <SPAN CLASS="MATH"><I>T</I></SPAN> (<SPAN CLASS="MATH"><I>T</I><IMG
+ WIDTH="18" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="11888img1.png"
+ ALT="$ \le$">50</SPAN>), the number of tests. Each test that comes in a separate line contains
+a string to be checked. Input strings contain only lower case letters ( '<TT>a</TT>' to '<TT>z</TT>' ) and 
+their length will be at most 200000.
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001002000000000000000">
+Output</A>&nbsp;</FONT>
+</H2>
+For each test output a single word in a single line. If the input string can be made by concatenating
+two palindromes, output "<TT>alindrome</TT>". Otherwise if it’s a palindrome output "<TT>palindrome</TT>". In
+any other case print "<TT>simple</TT>". (Quotes for clarity)
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001003000000000000000">
+Sample Input</A>&nbsp;</FONT>
+</H2>
+
+<P>
+<PRE>
+4
+aaa
+aabaa
+aabaaa
+abc
+</PRE> 
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001004000000000000000">
+Sample Output</A>&nbsp;</FONT>
+</H2>
+
+<P>
+<PRE>
+alindrome
+palindrome
+alindrome
+simple
+</PRE> 
+
+<P>
+
+
+<P>
+<BR><HR>
+
+</BODY>
+</HTML>
+</HTML>

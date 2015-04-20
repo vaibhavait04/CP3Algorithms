@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+            "http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+<HEAD>
+
+<META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<META name="GENERATOR" content="hevea 1.10">
+<LINK rel="stylesheet" type="text/css" href="http://uva.onlinejudge.org/external/119/Huge_Easy_Contest_2.css">
+<TITLE></TITLE>
+</HEAD>
+<BODY >
+<H2 CLASS="section"><DIV CLASS="center"><A NAME="htoc116"><FONT COLOR="#004CFF">X</FONT></A>&#XA0;&#XA0;<FONT COLOR="#004CFF">&#X2014; Switch The Lights</FONT></DIV></H2><P>
+
+<I>Time Limit: 5 sec</I><BR>
+ <I>Memory Limit: 32 MB</I><BR>
+</P><P>
+
+
+Kaunas University of Technology has bought a new light toggling system from one of the cheapest manufacturers in China. It consists of <CODE>N</CODE> lamps and <CODE>M</CODE> switches. Each switch has a subset of lights assigned to it, and when toggled, it changes the state of all the lights in the subset from on to off and vice versa. Also the system contains the main switch which is used to turn turn off all lights.</P><P>The authorities installed the switches at different locations in the univerisity. But one day the main switch went down. Now they are not able to turn off all lights by using the main switch. Unfortunately noone understands the Chineese documentation of the system, so we must wait for support from manufacturers. But we have good programmers, and we are interested in finding the minimal number of switches required to turn off all lights in the university. Initially, all lights are turned on.
+
+</P><H3 CLASS="subsection"><A NAME="toc93"></A><A NAME="htoc117"></A><FONT COLOR="#004CFF">INPUT</FONT></H3><P>
+
+The first line of input contains the number of tests <CODE>T</CODE> (<I>T</I> &#X2264; 50). Each test case is a set of lines. First line of each test case contains 2 positive integers <CODE>N</CODE> (<I>N</I> &#X2264; 15) and <CODE>M</CODE> (<I>M</I> &#X2264; 100) separated by a space character. Next <CODE>M</CODE> lines contain <CODE>N</CODE> integers K ( <I>K</I><SUB><I>i</I></SUB> &#X2208; {1, 0} ) separated by a space character (if the i-th integer is 1 then the i-th light is toggled by the switch).
+
+</P><H3 CLASS="subsection"><A NAME="toc94"></A><A NAME="htoc118"></A><FONT COLOR="#004CFF">OUTPUT</FONT></H3><P>
+
+For each test case output a single line <CODE>"Case T: N"</CODE>. Where <CODE>T</CODE> is the test case number (starting from 1) and <CODE>N</CODE> is the minimal number of switches required. If it is impossible to turn off all lights <CODE>N</CODE> should be equal to <CODE>"IMPOSSIBLE"</CODE>.
+
+</P><H3 CLASS="subsection"><A NAME="toc95"></A><A NAME="htoc119"></A><FONT COLOR="#004CFF">SAMPLE INPUT</FONT></H3><PRE>
+2
+2 2
+0 1
+1 0
+3 2
+1 0 1
+1 1 0
+</PRE><H3 CLASS="subsection"><A NAME="toc96"></A><A NAME="htoc120"></A><FONT COLOR="#004CFF">SAMPLE OUTPUT</FONT></H3><PRE CLASS="verbatim">Case 1: 2
+Case 2: IMPOSSIBLE
+</PRE><HR><I>Problem by: Aleksej Viktorchik; Leonid Sislo<BR>
+Huge Easy Contest #2</I></BODY>
+</HTML>

@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+            "http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+<HEAD>
+
+<META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<META name="GENERATOR" content="hevea 1.10">
+<LINK rel="stylesheet" type="text/css" href="http://uva.onlinejudge.org/external/119/Huge_Easy_Contest_2.css">
+<TITLE></TITLE>
+</HEAD>
+<BODY >
+<H2 CLASS="section"><DIV CLASS="center"><A NAME="htoc56"><FONT COLOR="#004CFF">L</FONT></A>&#XA0;&#XA0;<FONT COLOR="#004CFF">&#X2014; DNA II</FONT></DIV></H2><P>
+
+<I>Time Limit: 1 sec</I><BR>
+ <I>Memory Limit: 32 MB</I><BR>
+</P><P>
+
+
+As it was mention in the previous task, any DNA sequence consists from four bases: adenine (A), cytosine (C), guanine (G) and thymine (T) and can be written as a string constructed from characters A, C, G or T. As any strings, DNA sequences can be ordered alphabetically. In order to reduce amount of memory DNA sequence can be described by its length and index in the ordered (index starts from 0) set of all possible DNA sequences of some specific length. So you are asked to write a program that will encode any given DNA sequence in a pair of numbers.</P><P>Lets take for example all DNA sequences of length 2. They form the ordered set:<BR>
+ { AA; AC; AG; AT; CA; CC; CG; CT; GA; GC; GG; GT; TA; TC; TG; TT }<BR>
+ So sequence &#X201C;CC&#X201D; can be described by the pair (2;5) (2 is a length and 5 is an index in the set), &#X201C;AG&#X201D; by (2,2), &#X201C;TG&#X201D; by (2,14) and so on.
+
+</P><H3 CLASS="subsection"><A NAME="toc45"></A><A NAME="htoc57"></A><FONT COLOR="#004CFF">INPUT</FONT></H3><P>
+
+The number of tests <CODE>T</CODE> (<I>T</I> &#X2264; 100) is given on the first line. Each of next <CODE>T</CODE> lines contains DNA sequence <CODE>S</CODE> of maximal length of 30 characters.
+
+</P><H3 CLASS="subsection"><A NAME="toc46"></A><A NAME="htoc58"></A><FONT COLOR="#004CFF">OUTPUT</FONT></H3><P>
+
+For each test case output a single line <CODE>"Case T: (A;B)"</CODE>. Where <CODE>T</CODE> is the test case number (starting from 1) and <CODE>(A:B)</CODE> is a pair describing the DNA sequence by a given approach.
+
+</P><H3 CLASS="subsection"><A NAME="toc47"></A><A NAME="htoc59"></A><FONT COLOR="#004CFF">SAMPLE INPUT</FONT></H3><PRE>
+3
+AC
+ATA
+TAGCAGCAGCAGCGAA
+</PRE><H3 CLASS="subsection"><A NAME="toc48"></A><A NAME="htoc60"></A><FONT COLOR="#004CFF">SAMPLE OUTPUT</FONT></H3><PRE CLASS="verbatim">Case 1: (2:1)
+Case 2: (3:12)
+Case 3: (16:3374617184)
+</PRE><HR><I>Problem by: Aleksej Viktorchik; Leonid Sislo<BR>
+Huge Easy Contest #2</I></BODY>
+</HTML>

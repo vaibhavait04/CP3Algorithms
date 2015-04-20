@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+            "http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+<HEAD>
+
+<META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<META name="GENERATOR" content="hevea 1.10">
+<LINK rel="stylesheet" type="text/css" href="http://uva.onlinejudge.org/external/119/Huge_Easy_Contest_2.css">
+<TITLE></TITLE>
+</HEAD>
+<BODY >
+<H2 CLASS="section"><DIV CLASS="center"><A NAME="htoc71"><FONT COLOR="#004CFF">O</FONT></A>&#XA0;&#XA0;<FONT COLOR="#004CFF">&#X2014; Extra Spaces</FONT></DIV></H2><P>
+
+<I>Time Limit: 1 sec</I><BR>
+ <I>Memory Limit: 32 MB</I><BR>
+</P><P>
+
+
+In programming multiple whitespaces are used to only to make code more readable, so mostly all programming languages totally ignore multiple spaces in code (except for some esoteric ones). In general there are different types of whitespace characters: space itself, tabs, newline symbol, various control characters, etc. Tabs and spaces bring one or the biggest holywar to a programmers world as there is no common rule what to use for code indentation &#X2013; tab or space characters.</P><P>In this holywar you stand for tab side and your project code convention requires to use only them for code indentation. However you have recently spotted that someone is using space characters instead of it. Four spaces and tab character look the same in our text editor, so you have decided to write a parser that will change all consequent space characters to one. After that you would be able to determine amount of corrupted code.
+
+</P><H3 CLASS="subsection"><A NAME="toc57"></A><A NAME="htoc72"></A><FONT COLOR="#004CFF">INPUT</FONT></H3><P>
+
+The number of tests <CODE>T</CODE> (<I>T</I> &#X2264; 100) is given on the first line. At first line of each test there is integer <CODE>N</CODE> (<I>N</I> &#X2264; 50). Next <CODE>N</CODE> lines with text that must be processed for extra spaces follow. Maximal line length is equal to 500 characters.
+
+</P><H3 CLASS="subsection"><A NAME="toc58"></A><A NAME="htoc73"></A><FONT COLOR="#004CFF">OUTPUT</FONT></H3><P>
+
+For each test case output a single line <CODE>"Case T:"</CODE>. Where <CODE>T</CODE> is the test case number (starting from 1). Next <CODE>N</CODE> lines must be output with input text having no consequent spaces. By the way, always leave a blank line between tests. Please refer to the sample output for clarity.
+
+</P><H3 CLASS="subsection"><A NAME="toc59"></A><A NAME="htoc74"></A><FONT COLOR="#004CFF">SAMPLE INPUT</FONT></H3><PRE>
+2
+3
+Sample test one:
+  there was 2 spaces and 
+here are also  2  spaces
+2
+Sample test two:
+     there was 4 spaces</PRE><H3 CLASS="subsection"><A NAME="toc60"></A><A NAME="htoc75"></A><FONT COLOR="#004CFF">SAMPLE OUTPUT</FONT></H3><PRE CLASS="verbatim">Case 1:
+Sample test one:
+ there was 2 spaces and 
+here are also 2 spaces
+
+Case 2:
+Sample test two:
+ there was 4 spaces
+</PRE><HR><I>Problem by: Aleksej Viktorchik; Leonid Sislo<BR>
+Huge Easy Contest #2</I></BODY>
+</HTML>

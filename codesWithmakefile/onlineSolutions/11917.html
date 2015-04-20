@@ -1,0 +1,125 @@
+
+<!--Converted with LaTeX2HTML 2008 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Do Your Own Homework!</TITLE>
+<META NAME="description" CONTENT="Do Your Own Homework!">
+<META NAME="keywords" CONTENT="htmlatex">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2008">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="http://uva.onlinejudge.org/external/119/htmlatex.css">
+
+</HEAD>
+
+<BODY LANG="EN" BGCOLOR=#FFFFFF>
+
+<H1><BR CLEAR=ALL><CENTER><TABLE BGCOLOR=#0000ff><TR><TD><B><FONT SIZE=5 COLOR=#FFff00>&nbsp;<A NAME="SECTION0001000000000000000000">
+Do Your Own Homework!</A>&nbsp;</FONT></B></TABLE></CENTER>
+</H1>
+
+<P>
+These days Soha is so busy that he doesn't have time to do his own homework. 
+But this is not a big problem since he has got many friends who are willing to help. 
+One if his friend's name is Sparrow.
+Whenever Soha is assigned any homework, he turns to Sparrow for her help.
+
+<P>
+<DIV ALIGN="CENTER">
+<!-- MATH
+ $\epsfbox{p11917.eps}$
+ -->
+<IMG
+ WIDTH="498" HEIGHT="338" ALIGN="BOTTOM" BORDER="0"
+ SRC="p11917.png"
+ ALT="\epsfbox{p11917.eps}">
+</DIV>
+
+<P>
+Sparrow has given a list of subjects that she is comfortable with along with the number of days it will take her to complete an assignment 
+for each subject. Soha has got only <SPAN CLASS="MATH"><I>D</I></SPAN> days to complete his next assignment. However, the professor of this subject is a little flexible 
+and allows late submissions up to 5 days. That means he will not accept any submission that is after <SPAN CLASS="MATH"><I>D</I> + 5</SPAN> days from now. 
+Will Sparrow be able to do it for Soha this time?
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001001000000000000000">
+Input</A>&nbsp;</FONT>
+</H2>
+First line of input is a positive integer <SPAN CLASS="MATH"><I>T</I></SPAN> (<!-- MATH
+ $T \ le 100$
+ -->
+<SPAN CLASS="MATH"><I>T</I>&nbsp;<I>le</I>100</SPAN>) that determines the number of test cases. 
+Each case starts with a line containing an 
+integer <SPAN CLASS="MATH"><I>N</I></SPAN> that represents the number of subjects Sparrow is comfortable with. Each of the next <SPAN CLASS="MATH"><I>N</I></SPAN> lines contain the name of a subject 
+followed by the number of days it will take Sparrow to complete an assignment of that subject. All these subject names will be distinct. 
+The next line contains an integer <SPAN CLASS="MATH"><I>D</I></SPAN>. The meaning of <SPAN CLASS="MATH"><I>D</I></SPAN> is described above. The following line contains the name of the subject 
+whose homework is due. All the subjects' names consist of lowercase letters and the length of each is at least 1 
+and at most 20. All the integer inputs are positive in the range [1,100].
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001002000000000000000">
+Output</A>&nbsp;</FONT>
+</H2>
+For each case, first output the case number first starting from 1. If Sparrow doesn't take more than <SPAN CLASS="MATH"><I>D</I></SPAN> days to completely
+the assignment, output `<TT>Yesss</TT>'; if she takes more than <SPAN CLASS="MATH"><I>D</I></SPAN> days but not more than <SPAN CLASS="MATH"><I>D</I> + 5</SPAN>, output `<TT>Late</TT>'; if she takes 
+more than <SPAN CLASS="MATH"><I>D</I> + 5</SPAN> days or if she isn't comfortable with the subject, output `<TT>Do your own homework!</TT>'.
+Quotes are for clarify only and don't need to be part of the output. Look at the samples for more details. Be careful about the spelling.  
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001003000000000000000">
+Sample Input</A>&nbsp;</FONT>
+</H2>
+
+<P>
+<PRE>
+3
+3
+compiler 4
+cplusplus 1
+java 8
+5
+compiler
+2
+algorithm 3
+math 9
+4
+math
+2
+java 8
+ai 3
+6
+calculus
+</PRE> 
+
+<P>
+
+<H2><FONT size=4 COLOR=#ff0000><A NAME="SECTION0001004000000000000000">
+Sample Output</A>&nbsp;</FONT>
+</H2>
+
+<P>
+<PRE>
+Case 1: Yesss
+Case 2: Late
+Case 3: Do your own homework!
+</PRE> 
+
+<P>
+
+
+<P>
+<BR><HR>
+
+</BODY>
+</HTML>
+</HTML>

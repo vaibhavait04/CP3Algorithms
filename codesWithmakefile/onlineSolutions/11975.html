@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+            "http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+<HEAD>
+
+<META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<META name="GENERATOR" content="hevea 1.10">
+<LINK rel="stylesheet" type="text/css" href="http://uva.onlinejudge.org/external/119/Huge_Easy_Contest_2.css">
+<TITLE></TITLE>
+</HEAD>
+<BODY >
+<H2 CLASS="section"><DIV CLASS="center"><A NAME="htoc121"><FONT COLOR="#004CFF">Y</FONT></A>&#XA0;&#XA0;<FONT COLOR="#004CFF">&#X2014; Tele-loto</FONT></DIV></H2><P>
+
+<I>Time Limit: 1 sec</I><BR>
+ <I>Memory Limit: 32 MB</I><BR>
+</P><P>
+
+
+Tele-loto is a lottery game that is held every weekend in Lithuania. Most of the population know this game and almost everyone have played it at least once. In this task you are asked to write an application which finds the winnings given N balls, the lottery tickets and amount of money for each combination. Possible combinations are listed below:
+</P><UL CLASS="itemize"><LI CLASS="li-itemize">
+Corners (must be filled within the first 35 balls)
+</LI><LI CLASS="li-itemize">MidLine (must be filled within the first 40 balls)
+</LI><LI CLASS="li-itemize">Diagonals (must be filled within the first 45 balls)
+</LI><LI CLASS="li-itemize">Table (until one of the players wins the game)
+</LI></UL><P>
+<IMG SRC="p11975.jpg"></P><P>Totally 75 balls are in the game each with a unique number from 1 to 75. The i-th column in the ticket contains unique numbers in the interval [(<I>i</I> &#X2212; 1) * 15 + 1; <I>i</I> * 15], no other numbers may appear in the column. If the ticket wins more than one combination the total money won is equal to the sum of money won for each combination. Pay attention that combination MidLine is applied only to a single middle line!
+
+</P><H3 CLASS="subsection"><A NAME="toc97"></A><A NAME="htoc122"></A><FONT COLOR="#004CFF">INPUT</FONT></H3><P>
+
+The first line contains the number of tests <CODE>T</CODE> (<I>T</I> &#X2264; 100). Then <CODE>T</CODE> tests follow. On the first line of each test there are 2 numbers: <CODE>N</CODE> (0 &#X2264; <I>N</I> &#X2264; 75) &#X2014; number of balls, <CODE>L</CODE> (<I>L</I> &#X2264; 10<SUP>3</SUP>) &#X2014; number of tickets. On the second line there are <CODE>N</CODE> different integers indicating the values of the drawn lucky balls separated by a single space character. Next line contains 4 integers <CODE>V</CODE> (<I>V</I><SUB><I>i</I></SUB> &#X2264; 1000) indicating the values of each combination in left-to-right order as in the picture. Then 5 lines follow for each ticket with 25 different integers indicating the numbers on the ticket in the order as in the picture. Each line contains exactly 5 integers separated by a single space character.
+
+</P><H3 CLASS="subsection"><A NAME="toc98"></A><A NAME="htoc123"></A><FONT COLOR="#004CFF">OUTPUT</FONT></H3><P>For each test case output the line <CODE>"Case T:"</CODE> where <CODE>T</CODE> is a test number starting from 1. Then <CODE>L</CODE> lines follow each indicating the amount of money the ticket won in the order they appear in the input. The test cases must be separated by a blank line. Refer sample output for details.
+
+</P><H3 CLASS="subsection"><A NAME="toc99"></A><A NAME="htoc124"></A><FONT COLOR="#004CFF">SAMPLE INPUT</FONT></H3><PRE>
+1
+9 1
+12 67 8 75 4 30 42 54 74
+2 5 10 1000
+12 20 36 57 67
+2 28 45 59 63
+4 30 42 54 74
+5 26 34 49 70
+8 16 37 48 75
+</PRE><H3 CLASS="subsection"><A NAME="toc100"></A><A NAME="htoc125"></A><FONT COLOR="#004CFF">SAMPLE OUTPUT</FONT></H3><PRE CLASS="verbatim">Case 1:
+7
+</PRE><HR><I>Problem by: Aleksej Viktorchik; Leonid Sislo<BR>
+Huge Easy Contest #2</I></BODY>
+</HTML>
