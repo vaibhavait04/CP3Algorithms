@@ -19,6 +19,25 @@ Divide 12 as:
     c) 
   b) 4a != 4b 
 
+*** 
+
+### Problem  12 balls
+
+You have 12 identical balls. One of them is slightly different in weight than the rest. You have three weighs of a balance scale to determine which ball is different and whether it is heavier or lighter.
+
+This is not easy… try hard to figure this out before looking at the answer.
+
+### Solution
+
+• 1st weigh: Balls 1-4 vs. Balls 5-8 o There are 3 possible outcomes:
+
+• They Balance. In the case that balls 1-4 balance with balls 5-8, we know the odd ball is in balls 9-12. So we weigh (2nd) balls 9,10, and 11 against three neutral balls (1,2, and 3) • If 9-11 balances with 1-3, the odd ball is number 12 in which case we weigh (3rd) it against another neutral ball to determine whether it is light or heavy • If 9-11 is heavier than 1-3 we weigh (3rd) ball 9 against 10. o If they balance: it is heavy ball 11 o If they do not: the heavier ball is the odd ball
+
+• 1-4 is heavier than 5-8***. In this case we make balls 1-4 potentially heavy balls, balls 5-8 potentially light balls and balls 9-12 neutral balls. So, we weigh (2nd) balls 1 and 2 (potentially heavy) and 5 (potentially light) against balls 3 (potentially heavy), 7 (potentially light) and 12 (neutral) • If 1, 2, and 5 are heavier than 6,7, and 12, we weigh(3rd) the two potentially heavy balls (1 and 2) against each other o If they balance, it’s the third light ball (5) o If they don’t the heavier of the two is the odd ball • If 3, 7, and 12 are heavier, it’s either the heavy ball (3) on this side or the light ball (5) on the other we weigh (3rd) the heavy ball against a neutral one, if it’s heavier, then it’s the odd ball, if it balances, it’s the light ball that wasn’t weighed. • If 1,2,5 balance with 3,7,12 then the odd ball is in 4 (potentially heavy), 6, or 8 (potentially light). We then weigh (3rd) the 2 potentially lights (6 and 8) against each other. o If they balance, it’s the heavy ball (4) o If they don’t it’s the lighter of the two.
+
+***The Third Outcome is 5-8 is heavier than 1-4 in which case the same procedure is followed but using balls 5-8 rather than 1-4
+
+*** 
 
 Detailed solution: 
 Here is my solution.  It's long because I explain in detail.
