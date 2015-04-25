@@ -1,5 +1,11 @@
 ##List of problems 
 
+90: 	What is the middle of "nowhere"? The answer is indisputable, and not based on some philosophy. 
+	The word ‘nowhere’ has 7 letters, the middle one being ‘h’.
+
+
+
+Others: 
 a) Tower of Hanoi 
 b) Simple and complex algebra problems 
 c) Clockwise and counter clock rotating girl http://www.mindcipher.com/puzzles/25 - clockwise rotation. 
