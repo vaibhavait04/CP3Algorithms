@@ -1,5 +1,22 @@
-## 9 balls / 12 balls find the odd 'one' out 
+### Prob 67: 8 Marbles puzzle 
 
+You have 8 lead marbles, one of which is heavier than the rest. What is the minimum amount of “weightings” (i.e. with a see-saw scale) you need to do to guarantee finding the odd one out?
+
+### Solution 
+
+Ans: 2 
+
+1) 8 marbles → 3 3 2 2) Weigh 3 vs 3. If they are equal, weigh the remaining two. 3) If they are not equal, take the heavier one, weight two of the balls. If they are equal, the third one is the odd ball, if not, the heavier side is the odd ball.
+
+### Prob2: 9 balls / 12 balls find the odd 'one' out 
+
+Prob 73: Marble Weights 
+
+You are given a set of scales and 12 marbles. The scales are of the old balance variety. That is, a small dish hangs from each end of a rod that is balanced in the middle. The device enables you to conclude either that the contents of the dishes weigh the same or that the dish that falls lower has heavier contents than the other. The 12 marbles appear to be identical. In fact, 11 of them are identical, and one is of a different weight. Your task is to identify the unusual marble and discard it. You are allowed to use the scales three times if you wish, but no more.
+
+Note that the unusual marble may be heavier or lighter than the others. You are asked to both identify it and determine whether it is heavy or light.
+
+### Solution try 
 Divide 12 as: 
   2 piles of 6, or 
   3 piles of 4, or 
@@ -21,13 +38,13 @@ Divide 12 as:
 
 *** 
 
-### Problem  12 balls
+### Problem 3 - 12 balls
 
 You have 12 identical balls. One of them is slightly different in weight than the rest. You have three weighs of a balance scale to determine which ball is different and whether it is heavier or lighter.
 
 This is not easy… try hard to figure this out before looking at the answer.
 
-### Solution
+### Solution 
 
 • 1st weigh: Balls 1-4 vs. Balls 5-8 o There are 3 possible outcomes:
 
@@ -36,6 +53,31 @@ This is not easy… try hard to figure this out before looking at the answer.
 • 1-4 is heavier than 5-8***. In this case we make balls 1-4 potentially heavy balls, balls 5-8 potentially light balls and balls 9-12 neutral balls. So, we weigh (2nd) balls 1 and 2 (potentially heavy) and 5 (potentially light) against balls 3 (potentially heavy), 7 (potentially light) and 12 (neutral) • If 1, 2, and 5 are heavier than 6,7, and 12, we weigh(3rd) the two potentially heavy balls (1 and 2) against each other o If they balance, it’s the third light ball (5) o If they don’t the heavier of the two is the odd ball • If 3, 7, and 12 are heavier, it’s either the heavy ball (3) on this side or the light ball (5) on the other we weigh (3rd) the heavy ball against a neutral one, if it’s heavier, then it’s the odd ball, if it balances, it’s the light ball that wasn’t weighed. • If 1,2,5 balance with 3,7,12 then the odd ball is in 4 (potentially heavy), 6, or 8 (potentially light). We then weigh (3rd) the 2 potentially lights (6 and 8) against each other. o If they balance, it’s the heavy ball (4) o If they don’t it’s the lighter of the two.
 
 ***The Third Outcome is 5-8 is heavier than 1-4 in which case the same procedure is followed but using balls 5-8 rather than 1-4
+
+*** 
+
+### Solution 2:  Same as previous 
+
+Most people seem to think that the thing to do is weigh six coins against six coins, but if you think about it, this would yield you no information concerning the whereabouts of the only different coin. As we already know that one side will be heavier than the other.
+
+So that the following plan can be followed, let us number the coins from 1 to 12. For the first weighing let us put on the left pan coins 1,2,3,4 and on the right pan coins 5,6,7,8.
+
+There are two possibilities. Either they balance, or they don’t. If they balance, then the different coin is in the group 9,10,11,12. So for our second weighing we would put 1,2 in the left pan and 9,10 on the right. If these balance then the different coin is either 11 or 12.
+
+Weigh coin 1 against 11. If they balance, the different coin is number 12. If they do not balance, then 11 is the different coin.
+
+If 1,2 vs 9,10 do not balance, then the different coin is either 9 or 10. Again, weigh 1 against 9. If they balance, the different coin is number 10, otherwise it is number 9.
+
+That was the easy part.
+
+What if the first weighing 1,2,3,4 vs 5,6,7,8 does not balance? Then any one of these coins could be the different coin. Now, in order to proceed, we must keep track of which side is heavy for each of the following weighings.
+
+Suppose that 5,6,7,8 is the heavy side. We now weigh 1,5,6 against 2,7,8. If they balance, then the different coin is either 3 or 4. Weigh 4 against 9, a known good coin. If they balance then the different coin is 3, otherwise it is 4.
+
+Now, if 1,5,6 vs 2,7,8 does not balance, and 2,7,8 is the heavy side, then either 7 or 8 is a different, heavy coin, or 1 is a different, light coin.
+
+For the third weighing, weigh 7 against 8. Whichever side is heavy is the different coin. If they balance, then 1 is the different coin. Should the weighing of 1,5, 6 vs 2,7,8 show 1,5,6 to be the heavy side, then either 5 or 6 is a different heavy coin or 2 is a light different coin. Weigh 5 against 6. The heavier one is the different coin. If they balance, then 2 is a different light coin.
+
 
 *** 
 
