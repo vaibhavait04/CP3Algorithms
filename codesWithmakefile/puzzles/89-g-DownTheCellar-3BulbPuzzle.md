@@ -1,5 +1,7 @@
 ### The Puzzle:
 
+Down the cellar
+
 In your cellar there are three light switches in the OFF position. Each switch controls 1 of 3 light bulbs on the floor above.
 You may move any of the switches but you may only go upstairs to inspect the bulbs one time. How can you determine the switch for each bulb with one inspection??
 
