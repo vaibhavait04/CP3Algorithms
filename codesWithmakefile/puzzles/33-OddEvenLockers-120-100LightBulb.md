@@ -14,3 +14,22 @@ So the number of open lockers is the number of perfect squares less than or equa
 31^2 = 961 
 32^2 = 1024
 
+
+### Problem flavor 2 
+
+100 Light Bulbs
+
+There are 100 light switches, all of them are off. First, you walk by them, turning all of them on. Next, you walk by them turning every other one off. Then, you walk by them changing every third one. On your 4th pass, you change every 4th one.
+
+You repeat this for 100 passes. At the end, how many lights will be on?
+
+### Solution 
+
+Each of the 100 light switches changes its state on passes whose number is a factor of the light switch's number. For example, the 12th light will change its state on the 1st, 2nd, 3rd, 4th, 6th, and 12th passes.
+
+Factors usually come in pairs: (1, 12), (2, 6), (3, 4), so there's an even number of them. If the light's state gets changed an even number of times, it'll remain off.
+
+Only for perfect squares do the factors not come in pairs. For example, 9 will get changed on the 1st, 3rd, and 9th passes (it only has 3 factors). So perfect squares have an odd number of unique factors and so end up on. There are 10 perfect squares between 1 and 100.
+
+
+
