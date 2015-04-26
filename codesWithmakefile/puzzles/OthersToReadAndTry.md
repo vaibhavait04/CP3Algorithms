@@ -49,7 +49,7 @@ r) A man rode into town on Monday. He stayed for three nights and then left on M
 s) 95 - Tallest mountain: A man approaches you with a very enigmatic look on his face. He asks your for a bit of your time and if you could answer a quick question for him. He asks: “Before Mt. Everest was discovered, which was the tallest mountain in the world?” --> Mt Everest only 
 96 - There is a man lying face-down, dead, in the middle of a cabin. The cabin is in the middle of the woods. There are windows, but they do not open. What is going on? --> plane crash - person lying down in airplane cabin. 
 
-
+t) 135 - Which weighs more - pound of Gold or pound of silver --> Answer: Neither as pound is a unit of weight. 
 
 
 92 - Read from wiki about - Zollner illusion 
@@ -62,6 +62,9 @@ s) 95 - Tallest mountain: A man approaches you with a very enigmatic look on his
 	* Horizontal Vertical Illusion - overestimate the overall length of vertical line relative to horizontal line. 
 	* Muller Lyer Illusion - set of arrows seems to be of diff length. 
 
+139 - Gray Squares Illusion - Box under shade has same gray shade as the darker one - this is due to the overlapping shadow of object + original shade of box. 
+
+	http://web.mit.edu/persci/people/adelson/checkershadow_proof.html
 
 
 
