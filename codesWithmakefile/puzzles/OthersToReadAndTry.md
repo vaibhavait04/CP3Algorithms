@@ -20,6 +20,8 @@ h) School time puzzle:
 * The first person makes me and sells me. The second person buys me but doesnt use me. The third person uses me but doesnt see me. What am I? --> Coffin 
 * Give me food, and I will live Give me water, and I will die. What am I?  --> Fire 
 * My eyes fold like telescopes and view the world like periscopes Who am I?  For a hint you should know I run really slow and walk as fast as i can. Do you know who I am? --> Snail 
+* “We were born on the same day of the same year,” said Betsy. “And we have the same mother and father,” said Patsy. “But we’re not twins!” the two exclaimed. Can you explain? --> triplets, quadruplets 
+
 
 i) 68 - twiddler Bolts/ helical coils  - Two identical bolts are placed so that their helical grooves intermesh. If you move the bolts around each other, would they a) move inward b) move outward c) remain the same distance from each other  --> Answer: c - The bolts do not move. Kinda like a person walking up an escalator at the same rate as it's moving downwards.
 
