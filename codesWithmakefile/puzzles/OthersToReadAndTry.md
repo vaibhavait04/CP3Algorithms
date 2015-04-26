@@ -15,6 +15,7 @@ f) 39 - The Easy Sum of 1..100?  Use n(n+1)/2  or make pair of 0,100, 1,99, 2,98
 g) 40 - Left Hands Only. 6,000,000,000 (6 billion) people, sum of left hand fingers - is zero. 
 	It only takes one person to have no fingers on their left hand for the product to be zero
 h) School time puzzle: 
+* My first two letters are a man. The first three a woman. The first four are a brave man. And in whole I am a brave woman. --> Heroine 
 * Heart of Darkness, Coat of Grain, Was once alive, Now feels no pain, Never walks, but Leaves a Trail. Circle head and pointed tail. Grows shorter as the day goes on- Its waistline is a hexagon.  What am I?  ----> Pencil 
 * The first person makes me and sells me. The second person buys me but doesnt use me. The third person uses me but doesnt see me. What am I? --> Coffin 
 * Give me food, and I will live Give me water, and I will die. What am I?  --> Fire 
@@ -28,10 +29,7 @@ Police! Police! She cried, Police! he died! Sammy was my friend.  If this is the
 k) 74 - Ball drop - A man is floating in a hot air balloon off the coast of Ireland.  In one hand he has a bowling ball, and in the other a golf ball, and he drops them both over the side at the same time.  which one will hit the ground first? --> The balloon is floating off the coast, he drops the balls into the sea, not onto the ground.
 
 l) 75 - Paradoxical Statements - Nobody goes to that restaurant; it's too crowded.
-Don't go near the water till you have learned how to swim.  
-The man who wrote such a stupid sentence can not write at all.  
-If you get this message, call me, and if you don't get it, don't call.  
-and as a bonus: Answer truthfully (yes or no) to the following question: Will the next word you say be 'no'?
+Don't go near the water till you have learned how to swim.  The man who wrote such a stupid sentence can not write at all.  If you get this message, call me, and if you don't get it, don't call. and as a bonus: Answer truthfully (yes or no) to the following question: Will the next word you say be 'no'?
  
 m) 76 - Weird : Random puzzle: Here's something I heard from a friend, I thought it was appropriate.  What do you call a 4 foot tall fortune teller who is wanted by the law?  Good luck.
 a small medium at large - ?? how ??  4 foot tall= small Fortune teller= medium Wanted by the law= at large
@@ -46,7 +44,8 @@ q) Six drinking glasses stand in a row, with the first three full of juice and t
 
 r) A man rode into town on Monday. He stayed for three nights and then left on Monday. How come? --> Monday is horse name. 
  
-
+s) 95 - Tallest mountain: A man approaches you with a very enigmatic look on his face. He asks your for a bit of your time and if you could answer a quick question for him. He asks: “Before Mt. Everest was discovered, which was the tallest mountain in the world?” --> Mt Everest only 
+96 - There is a man lying face-down, dead, in the middle of a cabin. The cabin is in the middle of the woods. There are windows, but they do not open. What is going on? --> plane crash - person lying down in airplane cabin. 
 
 
 
