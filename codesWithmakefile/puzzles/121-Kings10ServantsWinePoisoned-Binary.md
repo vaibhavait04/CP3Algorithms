@@ -6,6 +6,8 @@ The king needs the remaining 999 safe bottles for his party in 4 weeks. The king
 
 ### Solution 
 
+Hint: Binary numbers value 
+
 There are a few keys to this puzzle: 
 1) The king has to mix wine in order to isolate the single poisoned one. 
 2) There are 10 servants. 
