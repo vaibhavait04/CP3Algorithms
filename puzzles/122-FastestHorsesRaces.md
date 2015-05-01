@@ -8,7 +8,7 @@ London racetrack is home to 25 horses, but their track can only race 5 horses at
 
 ### Solution 
 
-
+Answer: 7 races total.  5 races + 1 race (fastest) + 1 race (2nd and 3rd fastest).
 
 * Divide the 25 horses into groups of 5 and race each group independently. (5 races)
 
