@@ -4,7 +4,7 @@ There are three genii standing in a row in a room facing the same direction. Thu
 
 You tell the genii that you have 5 hats: 3 red hats, and 2 white hats. You then blindfold them, randomly place three of the hats on their heads and hide the remaining hats. You remove their blindfolds and ask them to say the colour of their hats.
 
-The genius at the back says “I don’t know what colour my hat is.” The genius in the middle says “I don’t know what colour my hat is.” The genius at the front says “My hat is ______.”
+The genius at the back says I don't know what colour my hat is� The genius in the middle says I don't know what colour my hat is� The genius at the front says My hat is ______�
 
 Fill in the blank.
 

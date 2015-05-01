@@ -6,7 +6,7 @@ Why is that if p is a prime number bigger than 3, then p^2-1 is always divisible
 
 
 
-The solution relies on showing that p^2 – 1 is a multiple of 2×2×2×3
+The solution relies on showing that p^2 - 1 is a multiple of 2×2×2×3
 
 First expand p^2 – 1 to give:
 
