@@ -3,7 +3,10 @@
 90: What is the middle of "nowhere"? The answer is indisputable, and not based on some philosophy. 
     The word 'nowhere' has 7 letters, the middle one being 'h'.
 
-
+Image puzzles:
+> http://www.techinterviewpuzzles.com/2010/07/image-puzzles-with-answers-ii.html
+> http://www.techinterviewpuzzles.com/2010/05/image-puzzles-with-answers.html
+> http://www.techinterviewpuzzles.com/2010/08/infosys-interview-puzzles-with-answers.html
 
 Others: 
 a) Tower of Hanoi 
