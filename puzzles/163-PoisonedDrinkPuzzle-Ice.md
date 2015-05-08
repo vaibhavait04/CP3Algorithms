@@ -1,0 +1,10 @@
+### Poisened Drink Puzzle
+
+   A rich old man has died. After his death, his children are surprised to learn that he has left all of his money to his oldest son Jeremiah, who loved him dearly, and ignored his other children, who hated him.
+  So, the funeral is a day or two later, and the other sons and daughters have decided to kill Jeremiah and take his inheritance. Since his father's death, Jeremiah has taken to drinking, and they know that, at the wake, he's going to be gulping down the liquor like it was nectar of the gods. So they decide to poison the drinks. One of the other sons, Wallace, tends bar, and gets the poison all ready. So Jeremiah comes up, crying and depressed, and orders a scotch on the rocks. Wallace serves him one, and he chugs it down in two seconds. "Give me another." Wallace gives him a second glass of scotch, which he also drinks in a matter of moments. The other siblings are puzzled...the poison is fast-acting; Jeremiah should be convulsing on the floor and retching his guts out. Finally, fifteen minutes later, a rather inebriated and very much alive Jeremiah orders one last glass of scotch, but as Wallace hands it to him, he changes his mind and leaves, sobbing. The other siblings come over to Wallace, and wonder what's going on. They talk about what could have gone wrong for a few minutes, and figure the poison's harmless. So Wallace sips the drink he poured for Jeremiah, and is pronounced DOA thirty minutes later. 
+
+Why did Jeremiah live? (He had no immunity to the poison, he didn't know it was coming, and the poison was obviously deadly.)
+
+### Answer 
+
+  Jeremiah orders a scotch on the rocks (ice cubes). Dropping the poison into his drink, it lands on top of the ice cubes. Jeremiah downs his two drinks very quickly, not giving enough time for the poison to mix with his drink. Conversely, the brother waits a "few minutes" before drinking, allowing the ice cubes to melt and giving ample time for the poison to mix with the scotch. He is soon dead as a result!  
