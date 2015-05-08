@@ -12,3 +12,12 @@ Take 1a,1b,1c from left overs weight 1a and 1b
 
 Hence the heavy ball is found.
 
+### Prob 67: 8 Marbles puzzle 
+
+You have 8 lead marbles, one of which is heavier than the rest. What is the minimum amount of “weightings” (i.e. with a see-saw scale) you need to do to guarantee finding the odd one out?
+
+### Solution 
+
+Ans: 2 
+
+1) 8 marbles → 3 3 2 2) Weigh 3 vs 3. If they are equal, weigh the remaining two. 3) If they are not equal, take the heavier one, weight two of the balls. If they are equal, the third one is the odd ball, if not, the heavier side is the odd ball.
