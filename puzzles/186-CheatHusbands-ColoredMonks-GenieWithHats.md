@@ -28,3 +28,19 @@ Day 2: Since neither of these 2 women know that their husbands are cheaters, the
 
 Through induction, it can be proved that when this logic is applied to n cheating husbands, they all die on the n-th day after the mayor’s announcement.
 
+### Puzzle - Genie with the hats 
+
+A bunch of men are on an island, A genie comes down and gathers everyone together and places a magical hat on some people’s heads (i e , at least one person has a hat). The hat is magical: it can be seen by other people, but not by the wearer of the hat himself. To remove the hat, those (and only those who have a hat) must dunk themselves underwater at exactly midnight. If there are n people and c hats, how long does it take the men to remove the hats? The men cannot tell each other (in any way) that they have a hat.
+Note: Genie does not tell how many hats she has put.
+
+### Solution 
+
+Lets take some simple cases first
+c = 1: in this case person who has hat on his head can see that no one else has hat on their head, so he will understand that he is the one with hat.
+
+c = 2: in this case person with hat will see one other person with hat, rest all will see two hats. Now had there been only 1 hat, this case would have been solved on very first day, but in this case no one will go on first night, so the guy who see one hat will understand that there must be one hat on his head, so both of them will go underwater on second night.
+
+c = 3: in this case person with hat will see two hats and rest all will see two hats, now had there been 1 or 2 hats some guys would have gone on first or second night, thus on third day guys who see 2 hats will understand that they have hats on their head and they will all go underwater on third night.
+
+Similarly we can see that it will take c days to remove all hats.
+
