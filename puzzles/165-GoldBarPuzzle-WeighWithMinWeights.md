@@ -15,9 +15,7 @@ Day 5:Give A (+1)
 Day 6:Get back A, give B  (-1,+2)
 Day 7:Give A (+1)
 
-
 Note: In a way this problem is similar to min weights used to weigh. 2, 2^n as solution. 
-
 
 ### Problem Version 2 
 The Gold Chain - Puzzle
@@ -26,6 +24,6 @@ The Gold Chain - Puzzle
 
 ### Answer 
 
-Make a cut in 4 th and loops of the Gold chain so you can get pieces of 1,1,3,6 and 12. from this you can weights from 1 to 23 grams.
+Make a cut in 4th and loops of the Gold chain so you can get pieces of 1,1,3,6 and 12. from this you can weights from 1 to 23 grams.
 
 
