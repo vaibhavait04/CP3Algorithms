@@ -26,3 +26,16 @@ The prisoners can not be certain that all have visited the room after the leader
 In the example of three prisoners, the leader must flip the first switch down three times to be sure all prisoners have visited the room, twice for the two other prisoners and once more in case the switch was initially up.
 
 
+### Puzzle Version 2 - 100 Prisoners in Solitary Cells
+
+100 prisoners are stuck in the prison in solitary cells. The warden of the prison got bored one day and offered them a challenge. He will put one prisoner per day, selected at random (a prisoner can be selected more than once), into a special room with a light bulb and a switch which controls the bulb. No other prisoners can see or control the light bulb. The prisoner in the special room can either turn on the bulb, turn off the bulb or do nothing. On any day, the prisoners can stop this process and say “Every prisoner has been in the special room at least once”. If that happens to be true, all the prisoners will be set free. If it is false, then all the prisoners will be executed. The prisoners are given some time to discuss and figure out a solution. How do they ensure they all go free?
+
+
+### Answer 
+
+Since this is the only way they will EVER get out of that prison, they decide to work together and make a plan. They select one prisoner (Bob, easier to refer) as the counter.
+
+Every time any prisoner is selected other than Bob, they follow these steps. If they have never turned on the light bulb before and the light bulb is off, they turn it on. If not, they don’t do anything (simple as that). Now if Bob is selected and the light bulb is already on, he adds one to his count and turns off the bulb. If the bulb is off, he just sits there meditates or whatever he wants to. The day his count reaches 99, he calls the warden and tells him “Every prisoner has been in the special room at least once”.
+
+So how does this solution work? Every time a prisoner enters the room first, he turns on the bulb if it is off. This way every prisoner turns on the bulb only once. When Bob enters and sees the bulb on, he knows that one new prisoner has entered the room so he adds one to his count. So when his counter reaches 99, he knows the rest of them have all been in the special room and obviously, he has been in the special room.
+
