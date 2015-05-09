@@ -14,3 +14,10 @@ This is same as the above puzzle with the condition of placing weights on only s
 
 For this answer is 3^0, 3^1, 3^2... That is 1,3,9,27,81,243 and 729.
 
+### Problem 
+
+1-40 litres of milk in drum puzzle
+
+There is a drum full of milk, people come for buying milk in the range of 1-40 litres. You can have only 4 cans to draw milk out of drum. tell me what should be the measurement of these four cans so that you can measure any amount of milk in the range of 1-40 litres.
+
+
