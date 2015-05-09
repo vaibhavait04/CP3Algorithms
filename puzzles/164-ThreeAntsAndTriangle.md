@@ -8,5 +8,6 @@ So let’s think this through. The ants can only avoid a collision if they all d
 
 P(No collision) = P(All ants go in a clockwise direction) + P( All ants go in an anti-clockwise direction) = 0.5 * 0.5 * 0.5 + 0.5 * 0.5 * 0.5 = 0.25
 
-
 Note: Interpolate the above problem to work for 3,4,5,6,7.. sides figure. 
+
+
