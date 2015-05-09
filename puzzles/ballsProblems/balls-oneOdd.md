@@ -1,6 +1,4 @@
-
-
-### Prob2: 9 balls / 12 balls find the odd 'one' out 
+### Problem: 9 balls / 12 balls find the odd 'one' out 
 
 Prob 73: Marble Weights 
 
@@ -71,9 +69,15 @@ Now, if 1,5,6 vs 2,7,8 does not balance, and 2,7,8 is the heavy side, then eithe
 For the third weighing, weigh 7 against 8. Whichever side is heavy is the different coin. If they balance, then 1 is the different coin. Should the weighing of 1,5, 6 vs 2,7,8 show 1,5,6 to be the heavy side, then either 5 or 6 is a different heavy coin or 2 is a light different coin. Weigh 5 against 6. The heavier one is the different coin. If they balance, then 2 is a different light coin.
 
 
+***
+
+### Puzzle - 13 balls 
+
+This is same like the above weight puzzle But instead of 8 balls here You are given 13 balls. The odd ball may be either heavier or lighter.  Find out the odd ball in 3 weightings.  
+
 *** 
 
-Detailed solution: 
+Detailed solution for problem with 8 balls: 
 Here is my solution.  It's long because I explain in detail.
 
 Richard 
