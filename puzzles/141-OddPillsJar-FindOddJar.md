@@ -29,3 +29,20 @@ In general (using the distribution of pills from above):
 
 Jar # = | Expected mass (150g) - observed mass |
 
+
+### Problem version 2: Coin machine 
+Coin Puzzle :
+This is another coin puzzle.  As per the puzzle you have 20 coin machines, each of which produce the same kind of coin. you know how much a coin is supposed to weigh. one of the machines is defective, in that every coin it produces weighs 1 ounce less than it is supposed to. you also have an electronic weighing machine. how can you determine which of the 20 machines is defective with only one weighing? (by one use, we mean you put a bunch of stuff on the machine and read a number, and that's it -- you not allowed to accumulate weight onto the machine and watch the numbers ascend, because that's just like multiple weighings). you are allowed to crank out as many coins from each machine as you like.
+
+This puzzle is like another coins puzzle (Box of Defective balls...) But It's solution is somewhat different. In other coins puzzle you can weigh number of times. But here it is only once. Try to think differently and post your answers..  
+
+### Answer
+In case of normal coin puzzle they ask number if times required to use the balance to find the answer. Here it is different. Here you can use only one time the balance.
+
+The solution is to take the coins in the following order. Take one coin from the first machine, two coins from the second machine, three coin from the third mechine etc.. So that totally you can take
+
+(20 * (20+1) )/2 = 210 coins. 
+
+Lets consider each coins have 10 ounce weight except one machine coins. So totally you have 2100 ounce weight for 210 coins. If you weigh it now you can get less weight because one machine produces less weight. From the weight you can find the machine which produces less weight coins. Suppose the resultant weight is 2099 then the first machine is fault. If it is 2098 then second machine is fault. That is the fault machine number = 2100 - Obtained weight from balance.
+
+
