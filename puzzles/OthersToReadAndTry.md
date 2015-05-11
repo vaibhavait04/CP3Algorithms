@@ -40,8 +40,6 @@ Don't go near the water till you have learned how to swim.  The man who wrote su
 m) 76 - Weird : Random puzzle: Here's something I heard from a friend, I thought it was appropriate.  What do you call a 4 foot tall fortune teller who is wanted by the law?  Good luck.
 a small medium at large - ?? how ??  4 foot tall= small Fortune teller= medium Wanted by the law= at large
 
-n) You have a 3 and a 5 litre water container. You also have a running tap. You must use the containers and the tap to exactly measure out 4 litres of water.
-
 o) You are a bug sitting in one corner of a cubic room. You wish to walk (not fly) to the extreme opposite corner - the corner furthest from you. Describe the shortest path that you can walk. --> Open the box and walk diagonally. 
 
 p) You are in a race and you overtake the person who is in second place. What is your position now? --> Second as you overtook second
