@@ -1,0 +1,21 @@
+### Problem 
+
+Jelly beans
+
+You have three jars that are all mislabeled. One contains peanut butter jelly beans, another grape jelly jelly beans and the third has a mix of both (not necessarily half-half mix). How many jelly beans would you have to pull out and out of which jars, to find out how to fix the labels on the jars?
+
+Labels on jars are as follows
+Jar 1 : Peanut butter
+Jar 2 : Grape
+Jar 3 : P.b. / Grape
+
+### Solution 
+
+Only one jelly bean from the p.b./grape jar will do the trick.
+
+The trick here is to realize that every jar is mislabeled. Therefore you know that the peanut butter jelly bean jar is not the peanut butter jelly bean jar and the same goes for the rest.
+You also need to realize that it is the jar labeled p.b./grape, labelled as the mix jar, that is your best hope. If you choose a jelly bean out of there, then you will know whether that jar is peanut butter or grape jelly jelly beans. It can’t be the mix jar because i already said that every jar is mislabeled.
+Once you know that jar 3 is either peanut butter, or grape jelly, then you know the other jars also. If it is peanut butter, then jar 2 must be mixed because it can’t be grape (as its labeled) and it can’t be peanut butter (that’s jar 3). Hence jar 1 is grape.
+If jar 3 is grape, then you know jar 1 must be the mix because it can’t be p.b. (as its labeled) and it can’t be grape (that’s jar 3). Hence jar 2 is peanut butter.
+
+
