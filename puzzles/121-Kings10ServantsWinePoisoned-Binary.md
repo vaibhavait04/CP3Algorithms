@@ -21,3 +21,16 @@ Now, each servant takes a small sip from every bottle where the servant's number
 Then based on the combination of servants that die, he can identify the poisoned bottle. For example, if none of them die, the 0th bottle was poisoned because none of them drank from it. If only servant 1 dies, then bottle 1 was poisoned, because he's the only person who drank from it. Finally, if servants 1, 2, 3, 6, 7, 8, 9, and 10 die, then the 999th bottle was poisoned (see how this matches up with 999 above).
 
 
+
+### Problem 2
+
+King and wine bottles
+
+A bad king has a cellar of 1000 bottles of delightful and very expensive wine. 
+A neighboring queen plots to kill the bad king and sends a servant to poison the wine. Fortunately (or say unfortunately) the bad king’s guards catch the servant after he has only poisoned one bottle. 
+Alas, the guards don’t know which bottle but know that the poison is so strong that even if diluted 100,000 times it would still kill the king. 
+Furthermore, it takes one month to have an effect. The bad king decides he will get some of the prisoners in his vast dungeons to drink the wine. 
+Being a clever bad king he knows he needs to murder no more than 10 prisoners – believing he can fob off such a low death rate – and will still be able to drink the rest of the wine (999 bottles) at his anniversary party in 5 weeks time. 
+Explain what is in mind of the king, how will he be able to do so ? (of course he has less then 1000 prisoners in his prisons)
+
+
