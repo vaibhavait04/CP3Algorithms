@@ -19,3 +19,26 @@ Once you know that jar 3 is either peanut butter, or grape jelly, then you know 
 If jar 3 is grape, then you know jar 1 must be the mix because it can’t be p.b. (as its labeled) and it can’t be grape (that’s jar 3). Hence jar 2 is peanut butter.
 
 
+### Problem description 2
+
+You have three bags and three labels. One bag has only red balls, one has only blue balls and one has both red and blue balls. Three labels are R, B and RB. R label was meant for the bag with only red balls, B label was meant for the bag with only blue balls and RB for the bag with both red and blue balls. Ram by mistake labelled the bags wrongly such that all the labels are wrong, how many minimum number of balls he should pick and from what bags to correct the labels? It is given that each bag has unlimited number of balls to be picked.
+
+### Solution 
+
+The minimum number of balls he should pick is 1 from the bag with label RB.
+
+How ?
+As the label of all the bags are wrong, bag with label RB can either have all red balls or all blue balls.
+Now ram will either get red ball or the blue ball.
+
+Case 1: Ram gets the red ball
+Bag with label RB is the bag with all the red balls(R).
+Bag with label B can either be RB or R(as all the labels are wrong) but as we already know R bag so it can only be RB.
+We know 2 bags correctly so third bag with label R should be B.
+
+Case 2: Ram gets the blue ball
+Bag with label RB is the bag with all the blue balls(B).
+Bag with label R can either be B or RB(as all the labels are wrong) but as we already know B bag so it can only be RB.
+we know 2 bags correctly so third bag with label B should be R.
+
+
