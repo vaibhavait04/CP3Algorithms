@@ -38,3 +38,33 @@ In summary:
 
 Total: 17 minutes
 
+
+### Problem - another version 
+
+Bridge 
+
+Four people are on this side of the bridge. The bridge will be destroyed by a bomb in 17 minutes. Everyone has to get across before that. Problem is that it’s dark and so you can’t cross the bridge without a flashlight and they only have one flashlight. Plus the bridge is only big enough for two people to cross at once. The four people walk at different speeds: one fella is so fast it only takes him 1 minute to cross the bridge, another 2 minutes, a third 5 minutes, the last it takes 10 minutes to cross the bridge. When two people cross the bridge together (sharing the flashlight), they both walk at the slower person’s pace. Can they all get across before the bridge blows up? if yes, then how ?
+
+### Solution 
+
+Person A : 1 minute
+Person B : 2 minutes
+Person C : 5 minutes
+Person D : 10 minutes
+Let F represents Flashlight.
+Person C and D are the slowest guys, if they don’t walk together that it self will make it 15 minutes, In this case (the best way to save time is) :
+
+A,D,F —-Bridge—-> = 10 min
+<—-Bridge—-A,F = 1 min (returning with flash light) A,C,F —-Bridge—-> = 5 min
+<—-Bridge—-A,F = 1 min A,B,F —-Bridge—-> = 2 min
+
+That makes a total of 19 minutes, but thats not what we want.
+It means they both should walk together, in this case if they both are walking together, then there should be another person(because if one of them will bring it will take 5 minutes) to bring the flashlight back. So here is the solution…A,B,F —-Bridge—-> = 2 min
+<—-Bridge—-A,F = 1 min C,D,F —-Bridge—-> = 10 min
+<—-Bridge—-B,F = 2 min A,B,F —-Bridge—-> = 2 min
+
+Total time = 17 minutes.
+if you exchange the 2nd and 4th steps, that will be another solution.
+
+
+
