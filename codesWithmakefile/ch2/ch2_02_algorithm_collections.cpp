@@ -45,6 +45,7 @@ int main() {
     printf("%d ", *it);
   printf("\n");
   printf("=======shuffle done ===========\n");
+
   partial_sort(v.begin(), v.begin() + 2, v.end());     // partial_sort demo - only sort two elements 
   for (vector<int>::iterator it = v.begin(); it != v.end(); it++)
     printf("%d ", *it);
@@ -94,11 +95,11 @@ int main() {
   test.push_back(b);
   test.push_back(c);
   test.push_back(d);
+
   for (int i = 0; i < 4; i++)
     printf("value: %d, name1 = %s, name2 = %s\n", test[i].first,
     ((string)test[i].second.first).c_str(), ((string)test[i].second.second).c_str());
   printf("=====before sorting vector of pair =============\n");
-
 
   sort(test.begin(), test.end());   // no need to use a comparison function
   // sorted ascending based on value, then based on name1,` then based on name2, in that order!
@@ -151,8 +152,4 @@ int main() {
   printf(" ============ min max done ==============\n");
   return 0;
 }
-
-
-
-
 

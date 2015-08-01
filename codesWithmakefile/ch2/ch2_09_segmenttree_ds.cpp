@@ -19,7 +19,8 @@ private: vi st, A;            // recall that vi is: typedef vector<int> vi;
       build(right(p), (L + R) / 2 + 1, R          );
       int p1 = st[left(p)], p2 = st[right(p)];
       st[p] = (A[p1] <= A[p2]) ? p1 : p2;
-  } }
+    }
+  }
 
   int rmq(int p, int L, int R, int i, int j) {                  // O(log n)
     if (i >  R || j <  L) return -1; // current segment outside query range
@@ -78,8 +79,9 @@ int main() {
   vi A(arr, arr + 7);                      // copy the contents to a vector
   SegmentTree st(A);
 
-  printf("              idx    0, 1, 2, 3, 4,  5, 6\n");
-  printf("              A is {18,17,13,19,15, 11,20}\n");
+  printf("  idx    0, 1, 2, 3, 4,  5, 6\n");
+  printf("  A is {18,17,13,19,15, 11,20}\n");
+
   printf("RMQ(1, 3) = %d\n", st.rmq(1, 3));             // answer = index 2
   printf("RMQ(4, 6) = %d\n", st.rmq(4, 6));             // answer = index 5
   printf("RMQ(3, 4) = %d\n", st.rmq(3, 4));             // answer = index 4
@@ -90,11 +92,13 @@ int main() {
   printf("              idx    0, 1, 2, 3, 4,  5, 6\n");
   printf("Now, modify A into {18,17,13,19,15,100,20}\n");
   st.update_point(5, 100);                    // update A[5] from 11 to 100
+
   printf("These values do not change\n");
   printf("RMQ(1, 3) = %d\n", st.rmq(1, 3));                            // 2
   printf("RMQ(3, 4) = %d\n", st.rmq(3, 4));                            // 4
   printf("RMQ(0, 0) = %d\n", st.rmq(0, 0));                            // 0
   printf("RMQ(0, 1) = %d\n", st.rmq(0, 1));                            // 1
+
   printf("These values change\n");
   printf("RMQ(0, 6) = %d\n", st.rmq(0, 6));                         // 5->2
   printf("RMQ(4, 6) = %d\n", st.rmq(4, 6));                         // 5->4

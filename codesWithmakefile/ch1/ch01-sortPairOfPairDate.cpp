@@ -20,6 +20,6 @@ int main() {
 	sort(birthdays.begin(), birthdays.end()); // that’s all :)
 	cout << "==== Sort by month - date and year \n";
 	for (int var = 0; var != birthdays.size(); ++var)
-	cout << birthdays[var].first.first << " and " << birthdays[var].first.second << " and " << birthdays[var].second << endl; 
+		cout << birthdays[var].first.first << " and " << birthdays[var].first.second << " and " << birthdays[var].second << endl; 
 }
 

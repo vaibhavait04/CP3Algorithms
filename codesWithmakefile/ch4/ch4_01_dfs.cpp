@@ -53,6 +53,7 @@ void dfs2(int u) {    // change function name to differentiate with original dfs
 #define DFS_GRAY 2              // one more color for graph edges property check
 vi dfs_parent;      // to differentiate real back edge versus bidirectional edge
 
+
 void graphCheck(int u) {               // DFS for checking graph edge properties
   dfs_num[u] = DFS_GRAY;   // color this as DFS_GRAY (temp) instead of DFS_BLACK
   for (int j = 0; j < (int)AdjList[u].size(); j++) {
@@ -257,3 +258,5 @@ int main() {
 
   return 0;
 }
+
+

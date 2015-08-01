@@ -5,7 +5,7 @@ using namespace std;
 typedef vector<int> vi;
 #define LSOne(S) (S & (-S))
 
-class FenwickTree {
+class FenwickTree { // Smaller than Segment tree 
 private:
   vi ft;
 
@@ -27,6 +27,7 @@ public:
 };
 
 int main() {              // idx   0 1 2 3 4 5 6 7  8 9 10, no index 0!
+
   FenwickTree ft(10);     // ft = {-,0,0,0,0,0,0,0, 0,0,0}
   ft.adjust(2, 1);        // ft = {-,0,1,0,1,0,0,0, 1,0,0}, idx 2,4,8 => +1
   ft.adjust(4, 1);        // ft = {-,0,1,0,2,0,0,0, 2,0,0}, idx 4,8 => +1
@@ -43,4 +44,7 @@ int main() {              // idx   0 1 2 3 4 5 6 7  8 9 10, no index 0!
 
   ft.adjust(5, 2); // update demo
   printf("%d\n", ft.rsq(1, 10)); // now 13
+
 } // return 0;
+
+
